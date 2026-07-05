@@ -4,7 +4,7 @@ This repository contains our team's complete implementation for Parts 1 through 
 
 ---
 
-## 👥 1. Group Information & Contributions
+##  1. Group Information & Contributions
 
 | Team Member | Core Project Role & Responsibility | Assigned Tasks Covered |
 | :--- | :--- | :--- |
@@ -15,7 +15,7 @@ This repository contains our team's complete implementation for Parts 1 through 
 
 ---
 
-## 📊 2. Part 1: EM Algorithm (Grouping Data)
+##  2. Part 1: EM Algorithm (Grouping Data)
 
 ### Core Analysis Question
 * **Should you or should you not simply draw a line at the dataset's global mean to split the data into two piles, and then calculate the mean of each pile?**
@@ -30,7 +30,7 @@ This repository contains our team's complete implementation for Parts 1 through 
 
 ---
 
-## 🛍️ 3. Part 2: Bayesian Sentiment Inference
+##  3. Part 2: Bayesian Sentiment Inference
 
 ### Project Boundaries
 Per the assignment constraints, this text analyzer is built using **pure, basic Python math Operations**—no hidden machine learning libraries were used. 
@@ -47,7 +47,7 @@ $$\text{Final \% Chance Review is Positive} = \frac{\text{How often the word is 
 
 ---
 
-## ✏️ 4. Part 3 & 4: Gradient Descent Optimization
+##  4. Part 3 & 4: Gradient Descent Optimization
 
 ### Software Design (The DRY Principle)
 To ensure the code is clean and completely unabstracted, we avoided pre-built, automated regression toolkits. We maintained the **DRY (Don't Repeat Yourself)** principle by packaging our matrix formulas inside a single execution `for` loop.
@@ -58,7 +58,7 @@ To ensure the code is clean and completely unabstracted, we avoided pre-built, a
 
 ---
 
-## 📁 5. Project Deliverables Checklist
+##  5. Project Deliverables Checklist
 * [x] **Main Notebook:** `Formative3_Group20.ipynb` (All code blocks fully executed)
 * [x] **Manual Math Document:** `manual_calculations.pdf` (Handwritten matrix calculus steps)
 * [x] **Project Hub:** `README.md` (This master summary file)
