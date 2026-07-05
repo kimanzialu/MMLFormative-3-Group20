@@ -4,36 +4,34 @@ This repository contains our team's complete implementation for Parts 1 through 
 
 ---
 
-##  1. Group Information & Contributions
+## 1. Group Information & Contributions
 
 | Team Member | Core Project Role & Responsibility | Assigned Tasks Covered |
 | :--- | :--- | :--- |
 | **Sahra** | EM Algorithm Lead & Documentation Coordinator | Part 1 Code, Main README Hub |
-| **Kenny** | Text Pipeline Designer & Keyword Processor | Part 2 Environment Setup |
-| **Denyse** | Mathematics Lead & Manual Derivations | Part 2 Bayes Logic |
+| **Kenny** | Text Pipeline Designer & Core Environment Setup | Part 2 Setup & Word Processing |
+| **Denyse** | Mathematics Lead & Manual Derivations | Part 2 Bayes Logic, Part 3 Math |
 | **Robert** | Automation Engineer & Graphics Specialist | Part 4 Code, Repository Build |
 
 ---
 
-##  2. Part 1: EM Algorithm (Grouping Data)
+## 2. Part 1: EM Algorithm (Grouping Height Data)
 
 ### Core Analysis Question
 * **Should you or should you not simply draw a line at the dataset's global mean to split the data into two piles, and then calculate the mean of each pile?**
-* **Answer:** **No, you should not.** Splitting data strictly at a single middle line fails because real-world data overlaps. A rigid line misclassifies data points near the center, creates high volatility, and ignores the true variance of the separate populations. The EM algorithm solves this by using soft probabilistic curves instead of a hard cutoff.
-
-
+* **Answer:** **No, you should not.** Splitting data strictly at a single middle line fails because real-world population data overlaps. A rigid cutoff line misclassifies data points near the center, creates high volatility, and ignores the true variance of the separate populations. The EM algorithm solves this by using soft probabilistic curves instead of a hard cutoff.
 
 ### Our Live Test Case Result (72.0 inches)
 * **Probability it is a Child:** 0.47%
-* **Probability it is a Basketball Player:** 99.53%
-* **Conclusion:** The model correctly and confidently classifies a 6-foot-tall individual into the basketball player distribution.
+* **Probability it is a Parent:** 99.53%
+* **Conclusion:** The model correctly and confidently classifies a 6-foot-tall individual into the parent distribution rather than the child distribution.
 
 ---
 
-##  3. Part 2: Bayesian Sentiment Inference
+## 3. Part 2: Bayesian Sentiment Inference
 
 ### Project Boundaries
-Per the assignment constraints, this text analyzer is built using **pure, basic Python math Operations**—no hidden machine learning libraries were used. 
+Per the assignment constraints, this text analyzer is built using **pure, basic Python math operations**—no hidden machine learning libraries like Scikit-Learn were used. 
 
 ### Final Keyword Probability Balance
 We tracked specific positive and negative keywords to weigh movie review sentiment using Bayes' Theorem:
@@ -43,11 +41,9 @@ $$\text{Final \% Chance Review is Positive} = \frac{\text{How often the word is 
 * Tracking **positive words** (*excellent*, *wonderful*, *amazing*) successfully drives the final probability toward **100%**.
 * Tracking **negative words** (*waste*, *awful*, *boring*) successfully drops the final probability toward **0%**.
 
-
-
 ---
 
-##  4. Part 3 & 4: Gradient Descent Optimization
+## 4. Part 3 & 4: Gradient Descent Optimization
 
 ### Software Design (The DRY Principle)
 To ensure the code is clean and completely unabstracted, we avoided pre-built, automated regression toolkits. We maintained the **DRY (Don't Repeat Yourself)** principle by packaging our matrix formulas inside a single execution `for` loop.
@@ -58,7 +54,7 @@ To ensure the code is clean and completely unabstracted, we avoided pre-built, a
 
 ---
 
-##  5. Project Deliverables Checklist
-* [x] **Main Notebook:** `Formative3_Group20.ipynb` (All code blocks fully executed)
-* [x] **Manual Math Document:** `manual_calculations.pdf` (Handwritten matrix calculus steps)
-* [x] **Project Hub:** `README.md` (This master summary file)
+## 5. Project Deliverables Checklist
+**Main Notebook:** `gradient_descent_analysis.ipynb` (All code blocks fully executed)
+**Manual Math Document:** `manual_calculations.pdf` (Handwritten matrix calculus steps)
+**Project Hub:** `README.md` (This master summary file)
