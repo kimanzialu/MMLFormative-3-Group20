@@ -10,8 +10,8 @@ This repository contains our team's complete implementation for Parts 1 through 
 | :--- | :--- | :--- |
 | **Sahra** | EM Algorithm Lead & Documentation Coordinator | Part 1 Code, Main README Hub |
 | **Kenny** | Text Pipeline Designer & Core Environment Setup | Part 2 Setup & Word Processing |
-| **Denyse** | Mathematics Lead & Manual Derivations | Part 2 Bayes Logic, Part 3 Math |
-| **Robert** | Automation Engineer & Graphics Specialist | Part 4 Code, Repository Build |
+| **Denyse** | Mathematics Lead & Manual Derivations | Part 2 Bayes Logich |
+| **Robert** | Automation Engineer & Graphics Specialist | Part 4 Code & Plot |
 
 ---
 
